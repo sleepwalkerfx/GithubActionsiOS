@@ -27,6 +27,7 @@ class Tests_iOS: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         XCTAssertTrue(true)
+        
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
