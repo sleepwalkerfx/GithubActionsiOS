@@ -12,7 +12,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        scheme: ['GithubActionsiOS (iOS)']
+        scheme: ['GithubActionsiOS']
     steps:
       - name: Checkout
         uses: actions/checkout@v3
