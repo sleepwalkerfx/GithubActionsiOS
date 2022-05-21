@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run GithubActionsiOS unit tests
-      run: xcodebuild -scheme GithubActionsiOS test -destination "platform=iOS Simulator,name=iPhone 8"
+      run: xcodebuild -scheme GithubActionsiOS test -destination "platform=iOS Simulator, OS:macos-latest ,name=iPhone 8"
